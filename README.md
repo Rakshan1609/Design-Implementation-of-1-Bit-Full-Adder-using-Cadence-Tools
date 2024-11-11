@@ -1,10 +1,12 @@
-# Design-Implementation-of-1-Bit-Full-Adder-using-Cadence-Tools
-Ex No: 04     Design & Implementation of 1 Bit Full Adder Using Cadence EDA Tools   
+# DESIGN-IMPLEMENTATION-OF-1-BIT-FULL-ADDER-USING-CADENCE-TOOLS
 
-Aim:
+  
+## AIM:
+
 To design and implement a 1-bit full adder circuit using Cadence EDA tools and to understand its behavior in digital arithmetic operations.
 
-Tools Required:
+## TOOLS REQUIRED: 
+
 •	Personal Computer
 •	Cadence Virtuoso Software
 
@@ -14,9 +16,9 @@ S C H E M A T I C S I M U L A T I O N - PROCEDURE FOR CREATING THE SCHEMATIC SIM
 2.	Type the following commands as follows and press enter.
 •	csh
 •	source /cadence/install/cshrc
-•	virtuoso 
-Procedure for Schematic simulation using Cadence
-
+•	virtuoso
+ ###  PROCEDURE FOR SCHEMATIC SIMULATION USING CADENCE :
+ 
 1.	Now two windows must open i) virtuoso/command interpreter window ii)”Whats New…”
 2.	Close the 2nd window
 3.	Use 1st window i.e virtuoso window (CIW) for further processing.
@@ -27,12 +29,15 @@ iv.	Create the test Cell view.
 v.	Analog simulation by spectre
 
 
-i)	Procedure for Creating New Library.
+i) PROCEDURE FOR CREATING NEW LIBRARY :	
+
 •	File –New – Library
 •	Name: Give name for ur library Ex: VLSILAB_EXP_1
 •	Enable Attach to an existing technology library, Click OK
 •	Attach the library to the technology library gpdk045.Click OK
-ii)	Create Schematic Cell view.
+
+ii)	CREATE SCHEMATIC CELL VIEW: 
+
 •	Go to 1st window i.e virtuoso (CIW)
 •	File-New-Cell view
 •	Setup the new file form
@@ -52,7 +57,7 @@ ii)	Create Schematic Cell view.
 
 
  
-iii)	Creating the Symbol for schematic Cell view
+iii)	CREATING THE SYMBOL FOR SCHEMATIC CELL VIEW 
 
 •	In the schematic window, execute 
 	Create – Cell view – From Cell view
@@ -66,11 +71,12 @@ iii)	Creating the Symbol for schematic Cell view
 •	Check for the position of pin side.Prss OK
 •	Edit for the shape by Create-Shape-Choose required options to edit.
 
+
  ![IMG-20241019-WA0035](https://github.com/user-attachments/assets/dc5f18cf-8e4a-4970-a9bd-ced5c15fcfd9)
 
 
 
-iv)	Creating the new test cell view
+iv)	CREATING THE NEW TEST CELL VIEW 
 
 •	Go to CIW window, Execute File-New-Cell view
 	Setup the new file form
@@ -84,7 +90,8 @@ iv)	Creating the new test cell view
 ![IMG-20241019-WA0036](https://github.com/user-attachments/assets/02d259ca-3a61-46ae-bd0a-64d357310646)
 
  
-Analog simulation by SPECTRE.
+### ANALOG SIMULATION BY SPECTRE:
+
 •	In test cell view window
 •	Launch – ADE L(Analog Design Environment)
 	Execute Setup—Simulation/directory/Host A new window opens
@@ -94,15 +101,16 @@ Analog simulation by SPECTRE.
 	Execute Output s—to be plotted – Select on Schematic
 	Then Select the INPUT WIRE(Vin ) and OUTPUT WIRE(Vout) from your test Schematic using mouse
 •	Execute Simulation -- Net list and Run
+
 ![IMG-20241019-WA0033](https://github.com/user-attachments/assets/3f603cf1-7394-4561-ae07-fbe55615e8be)
 
 
-For Transient Analysis Settings and Output
+### FOR TRANSIENT ANALYSIS SETTINGS AND OUTPUT: 
  
 ![IMG-20241019-WA0040](https://github.com/user-attachments/assets/384f880f-a1e4-4afa-8302-d7667c2f535b)
 
 
  
 
-Results:
+## RESULTS : 
 The design and implementation of the 1-bit full adder using Cadence EDA tools were successfully completed. The simulation results verified the correct operation of the full adder, with accurate sum and carry outputs for all input combinations.
