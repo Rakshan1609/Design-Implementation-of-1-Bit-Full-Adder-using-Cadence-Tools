@@ -1,12 +1,10 @@
-# DESIGN-IMPLEMENTATION-OF-1-BIT-FULL-ADDER-USING-CADENCE-TOOLS
+# Design-Implementation-of-1-Bit-Full-Adder-using-Cadence-Tools
+Ex No: 04     Design & Implementation of 1 Bit Full Adder Using Cadence EDA Tools   
 
-  
-## AIM:
-
+Aim:
 To design and implement a 1-bit full adder circuit using Cadence EDA tools and to understand its behavior in digital arithmetic operations.
 
-## TOOLS REQUIRED: 
-
+Tools Required:
 •	Personal Computer
 •	Cadence Virtuoso Software
 
@@ -16,9 +14,9 @@ S C H E M A T I C S I M U L A T I O N - PROCEDURE FOR CREATING THE SCHEMATIC SIM
 2.	Type the following commands as follows and press enter.
 •	csh
 •	source /cadence/install/cshrc
-•	virtuoso
- ###  PROCEDURE FOR SCHEMATIC SIMULATION USING CADENCE :
- 
+•	virtuoso 
+Procedure for Schematic simulation using Cadence
+
 1.	Now two windows must open i) virtuoso/command interpreter window ii)”Whats New…”
 2.	Close the 2nd window
 3.	Use 1st window i.e virtuoso window (CIW) for further processing.
@@ -29,15 +27,12 @@ iv.	Create the test Cell view.
 v.	Analog simulation by spectre
 
 
-i) PROCEDURE FOR CREATING NEW LIBRARY :	
-
+i)	Procedure for Creating New Library.
 •	File –New – Library
 •	Name: Give name for ur library Ex: VLSILAB_EXP_1
 •	Enable Attach to an existing technology library, Click OK
 •	Attach the library to the technology library gpdk045.Click OK
-
-ii)	CREATE SCHEMATIC CELL VIEW: 
-
+ii)	Create Schematic Cell view.
 •	Go to 1st window i.e virtuoso (CIW)
 •	File-New-Cell view
 •	Setup the new file form
@@ -53,11 +48,12 @@ ii)	CREATE SCHEMATIC CELL VIEW:
 	Make the connections by using fixed narrow wire key
 	Click Check and Save button
 
-![IMG-20241019-WA0034](https://github.com/user-attachments/assets/08a8f278-00e2-44d9-8420-a3fcf0586a7e)
+![Screenshot 2024-11-14 120243](https://github.com/user-attachments/assets/0aa7bd84-ed91-48c8-bc78-a3f0d5298749)
+
 
 
  
-iii)	CREATING THE SYMBOL FOR SCHEMATIC CELL VIEW 
+iii)	Creating the Symbol for schematic Cell view
 
 •	In the schematic window, execute 
 	Create – Cell view – From Cell view
@@ -71,12 +67,11 @@ iii)	CREATING THE SYMBOL FOR SCHEMATIC CELL VIEW
 •	Check for the position of pin side.Prss OK
 •	Edit for the shape by Create-Shape-Choose required options to edit.
 
-
- ![IMG-20241019-WA0035](https://github.com/user-attachments/assets/dc5f18cf-8e4a-4970-a9bd-ced5c15fcfd9)
-
+![Screenshot 2024-11-14 120438](https://github.com/user-attachments/assets/c07d0bd5-bf1b-4fbb-bdd9-44201bdd6e99)
 
 
-iv)	CREATING THE NEW TEST CELL VIEW 
+
+iv)	Creating the new test cell view
 
 •	Go to CIW window, Execute File-New-Cell view
 	Setup the new file form
@@ -87,11 +82,10 @@ iv)	CREATING THE NEW TEST CELL VIEW
 •	Follow the step 3(ii) d to make the required connections
 
 
-![IMG-20241019-WA0036](https://github.com/user-attachments/assets/02d259ca-3a61-46ae-bd0a-64d357310646)
+![Screenshot 2024-11-14 120502](https://github.com/user-attachments/assets/48f1d035-6120-43cf-9472-477b517ebff1)
 
  
-### ANALOG SIMULATION BY SPECTRE:
-
+Analog simulation by SPECTRE.
 •	In test cell view window
 •	Launch – ADE L(Analog Design Environment)
 	Execute Setup—Simulation/directory/Host A new window opens
@@ -102,15 +96,16 @@ iv)	CREATING THE NEW TEST CELL VIEW
 	Then Select the INPUT WIRE(Vin ) and OUTPUT WIRE(Vout) from your test Schematic using mouse
 •	Execute Simulation -- Net list and Run
 
-![IMG-20241019-WA0033](https://github.com/user-attachments/assets/3f603cf1-7394-4561-ae07-fbe55615e8be)
+![Screenshot 2024-11-14 120315](https://github.com/user-attachments/assets/3b6e81cf-b819-4455-a8b5-89297c437eca)
 
 
-### FOR TRANSIENT ANALYSIS SETTINGS AND OUTPUT: 
+For Transient Analysis Settings and Output
+
+![Screenshot 2024-11-14 115919](https://github.com/user-attachments/assets/4e9da05c-90f8-4f3a-81b3-4287269bb0a7)
+
+
+
  
-![IMG-20241019-WA0040](https://github.com/user-attachments/assets/384f880f-a1e4-4afa-8302-d7667c2f535b)
 
-
- 
-
-## RESULTS : 
+Results:
 The design and implementation of the 1-bit full adder using Cadence EDA tools were successfully completed. The simulation results verified the correct operation of the full adder, with accurate sum and carry outputs for all input combinations.
